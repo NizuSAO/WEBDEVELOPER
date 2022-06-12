@@ -1,0 +1,76 @@
+h1{
+    height: 50px;
+    text-align: center;
+    background-color: white;
+}
+
+p{
+    font-size: 30px;
+    color: white;
+    font-family: cursive;
+
+
+}
+
+#Yin{
+    font-size: 20px;
+    color: azure;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #43372B ;
+}
+
+img{
+    height: 500px;
+    width: 1000px;
+    margin-left: 150px;
+    border: 10px solid #F9FF33;
+    }
+
+h2{
+    color: white;
+    font-family: sans-serif;
+}
+
+
+iframe{
+    margin-left: 400px;
+
+}
+
+p a{
+    color: aquamarine;
+}
+
+#Yan{
+    color: #43372B;
+}
+
+.tex {
+    color: #F9FF33;
+    font-size: 20px;
+    font-family: cursive;
+}
+
+.int {
+    font-size: 20px;
+    color: white;
+    font-family: cursive;
+}
+
+.Ast{
+    color: aqua;
+    font-size: 15px;
+}
+
+.noer{
+    color: azure;
+    font-size: 15px;
+}
+
+h5{
+    font-size: 30px;
+    color: azure;
+}

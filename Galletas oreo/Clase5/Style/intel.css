@@ -1,0 +1,115 @@
+body{
+    background-color: #fbbc02;
+    font-family: sans-serif;
+  }
+  
+  .container{
+    margin: auto;
+    background-color: white;
+    width: 1200px;
+    padding: 40px;
+  }
+  
+  ul, li {
+      padding: 0;
+      margin: 0;
+      list-style: none;
+  }
+  
+  ul.slider{
+    position: relative;
+    width: 800px;
+    height: 300px;
+  }
+  
+  ul.slider li {
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      opacity: 0;
+      width: inherit;
+      height: inherit;
+      transition: opacity .5s;
+      background:#fff;
+  }
+  
+  ul.slider li img{
+    width: 150%;
+    height: 300px;
+    object-fit: cover;
+  }
+  
+  ul.slider li:first-child {
+      opacity: 1; /*Mostramos el primer <li>*/
+  }
+  
+  ul.slider li:target {
+      opacity: 1; /*Mostramos el <li> del enlace que pulsemos*/
+  }
+  
+  .menu{
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .menu li{
+    display: inline-block;
+    text-align: center;
+  }
+  
+  .menu li a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    background-color: grey;
+    padding: 10px;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    border-radius: 100%;
+  }
+
+
+ h1, h3{
+     color: white;
+     text-shadow: 1px 2px 2px black;
+     text-align: center;
+ }
+
+ div.galeria{
+
+    margin: 20px 40px;
+    box-shadow: 0 4px 8px 0 white;
+    float: left;
+    width: 250px;
+ }
+
+ div.galeria img{
+     width: 100%;
+     height: auto;
+ }
+
+ div.galeria:hover{
+     border: 1px solid rgb(192, 0, 0);
+ }
+ 
+
+div.pie{
+    text-align: center;
+    text-shadow: 0 2px 5px 0 white;
+    color: white; 
+    background-color: black;
+    padding: 20px; 
+    margin-top: -3px;
+}
+
+footer{
+    padding-left: 400px;
+    margin-top: 500px;
+    margin-bottom: -10px;
+    margin-left: -9px;
+    width: 950px;
+    height: 150px;
+    float: none;
+    background-color: black;
+}
